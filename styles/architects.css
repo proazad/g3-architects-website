@@ -1,1 +1,112 @@
+/* Google font Work Sans Inport here  */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+/* Common CSS Styles  */
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.bg-primary {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+.description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px auto;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+    transition: all .35s ease-in;
+}
+
+.btn-primary:hover {
+    background: #b36205;
+    color: #FFF;
+}
+
+/* Header Styels Start here  */
+header {
+    width: auto;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav>ul>li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all .35s ease-in;
+}
+
+nav>ul>li a:hover {
+    color: #fff;
+    background-color: #424242;
+}
+
+/* Banner Styles Start Here  */
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner-content {
+    width: 60vw;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.banner-title {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-img {
+    padding: 30px 0px;
+}
+
+.banner-img img {
+    width: 100%;
+}
