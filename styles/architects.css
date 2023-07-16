@@ -303,9 +303,11 @@ nav>ul>li a:hover {
     margin-top: 10px;
 }
 .sponsor-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
 
 .sponsor-container img {

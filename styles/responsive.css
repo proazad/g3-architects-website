@@ -79,6 +79,13 @@
     margin-top: 50px;
     flex-direction: column;
 }
+.our-sponosor-header {
+    margin-bottom: 40px;
+}
+.sponsor-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
 
 
 
