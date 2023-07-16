@@ -167,3 +167,67 @@ nav>ul>li a:hover {
     color: #FF900E;
     font-weight: 700;
 }
+
+/* Feature Service Section Styles  */
+.feature-service-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 50px auto;
+}
+
+.feature-service,
+.feature-service-img {
+    flex: 1;
+}
+
+.feature-service-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    ;
+    padding-left: 20px;
+}
+
+.service {
+    box-shadow: 1px 1px 20px #e5e1e1;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.service-title {
+    margin-bottom: 0;
+}
+
+.service>.description {
+    margin-top: 0;
+}
+
+.feature-service-img {
+    position: relative;
+    height: auto;
+}
+
+.feature-service-img img {
+    max-width: 100%;
+}
+
+.experience {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px;
+    position: absolute;
+    bottom: 70px;
+    left: -40px;
+    text-align: center;
+    color: #FFF;
+}
+
+.experience-title {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
