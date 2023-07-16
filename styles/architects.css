@@ -116,3 +116,54 @@ nav>ul>li a:hover {
 .banner-img img {
     width: 100%;
 }
+
+/* Feature Section Styles  */
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto;
+    gap: 50px;
+
+}
+
+.feature-img,
+.feature-content {
+    flex: 1;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature-img img {
+    width: 100%;
+    box-shadow: 1px 1px 10px #858080;
+    border-radius: 5px;
+}
+
+.feature-content {
+    padding: 0px 30px;
+}
+
+.feature-title {
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.feature-title>.quick {
+    color: #727272;
+    font-weight: 500;
+}
+
+.feature-title>.our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.feature-title>.feature {
+    color: #FF900E;
+    font-weight: 700;
+}
