@@ -247,9 +247,11 @@ nav>ul>li a:hover {
     font-weight: 700;
     margin: 10px 0;
 }
-.facts-header .description{
+
+.facts-header .description {
     margin-top: 0;
 }
+
 .facts-container {
     display: flex;
     justify-content: space-evenly;
@@ -278,4 +280,35 @@ nav>ul>li a:hover {
     font-size: 20px;
     font-weight: 600;
     margin-top: 0;
+}
+
+/* Our Sponsor Section Styles Start Here  */
+.our-sponsor-section {
+    margin:80px auto;
+}
+
+.our-sponosor-header {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.our-sponosor-header .description{
+    margin-top: 10px;
+}
+.sponsor-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsor-container img {
+    max-width: 100%;
+    mix-blend-mode: luminosity;
 }
