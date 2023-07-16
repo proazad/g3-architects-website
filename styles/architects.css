@@ -231,3 +231,51 @@ nav>ul>li a:hover {
     font-size: 40px;
     font-weight: 700;
 }
+
+/* Facts Section Styles  */
+.some-facts-section {
+    margin: 90px auto;
+}
+
+.facts-header {
+    width: 50%;
+}
+
+.facts-header-title {
+    color: #131313;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.facts-header .description{
+    margin-top: 0;
+}
+.facts-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+    padding: 0px 50px;
+    margin-top: 90px;
+}
+
+.fact {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px 10px;
+    flex: 1;
+}
+
+.fact-stats {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.fact-title {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
