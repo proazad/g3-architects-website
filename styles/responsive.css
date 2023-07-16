@@ -1,0 +1,22 @@
+/* Mobile/Small Device Styles   */
+@media screen and (max-width:576px) {
+    .container {
+        width: 100vw;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100vw;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-img {
+        padding: 0px;
+    }
+}
